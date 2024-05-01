@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(243, 191, 228);
+  }
+  
+  .stopwatch {
+    margin: 50px auto;
+    width: 300px;
+    color: brown;
+  }
+  
+  .display {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(250, 250, 251);
+  }
+  
+  .controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(245, 7, 110, 0.515);
+  }
+  
+  #laps {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  #laps li {
+    margin-bottom: 5px;
+  }
+   
+
+
+  
