@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    color: rgb(22, 41, 245);
+
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(22, 41, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: rgb(157, 238, 246);
+  }
+  
+  .message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .reset-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(178, 238, 248);
+    border: 1px solid rgb(22, 41, 245);
+  }
+ 
+  
